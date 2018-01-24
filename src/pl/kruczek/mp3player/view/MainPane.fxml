@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="200.0" prefWidth="200.0" stylesheets="@style.css"
+	xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="pl.kruczek.mp3player.controller.MainController">
+	<bottom>
+		<fx:include source="ControlPane.fxml" fx:id="controlPane"  />
+	</bottom>
+	<center>
+		<fx:include source="ContentPane.fxml" fx:id="contentPane" />
+	</center>
+	<top>
+		<fx:include source="MenuPane.fxml" fx:id="menuPane" />
+	</top>
+</BorderPane>
