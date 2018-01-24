@@ -49,7 +49,6 @@ public class MainController implements Initializable {
         configControlPaneAction();
         configureVolume();
         configureTable();
-//        configureProgressBar();
         configureMenu();
 
 
