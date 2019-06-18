@@ -23,7 +23,7 @@ pipeline {
         stage('SCM veryfing'){
             steps{
                     echo 'stage SCM'
-                    git 'https://github.com/albert011111/MiniMp3Player'
+                    //git 'https://github.com/albert011111/MiniMp3Player'
                    bat 'mvn clean compile'
             }
         }
