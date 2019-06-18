@@ -24,7 +24,7 @@ pipeline {
             steps{
                     echo 'stage SCM'
                     git 'https://github.com/albert011111/MiniMp3Player'
-                   sh 'mvn clean compile'
+                   bat 'mvn clean compile'
             }
         }
 
